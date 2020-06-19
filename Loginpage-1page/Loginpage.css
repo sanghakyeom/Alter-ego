@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    background-color: cornsilk;
+}
+
+.box {
+    margin: 50px auto;
+    width: 500px;
+    position: relative
+}
+
+
+/* 사진과 액자 시작*/
+
+.front {
+    padding-top: 43.5px;
+    padding-left: 27px;
+    padding-right: 27px;
+    padding-bottom: 43.5px;
+    position: absolute
+}
+
+.back {
+    position: absolute
+}
+
+
+/* 사진과 액자 끝*/
+
+
+/* 부드럽게 움직이는 기능 시작 */
+
+.box:hover .front {
+    transform: translateX(-463px)
+}
+
+.front {
+    transform: translateX(0px) all 0.8s ease;
+}
+
+
+/* 부드럽게 움직이는 기능 시작 */
+
+.font {
+    font-family: 'Nanum Pen Script', cursive;
+}
